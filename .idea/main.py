@@ -32,17 +32,17 @@ class Stud:
             print(f"gladnes", {self.glad})
     def live(self, day):
             day = "Day"+str(day)+"of"+"live"
-            print(f"{day:=50}")
+            print(f"{day:=^50}")
             cube = random.randint(1,3)
-            if live_cube == 1:
+            if cube == 1:
                 self.study()
-            if live_cube == 2:
+            if cube == 2:
                 self.sleep()
-            if live_cube == 3:
+            if cube == 3:
                 self.chill()
             self.day()
             self.is_alive()
-nick = Student(name = "Nick")
+nick = Stud(name = "Nick")
 for day in range(365):
     if nick.alive == False:
         break
