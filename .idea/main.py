@@ -44,6 +44,7 @@ class Stud:
             print(f"progres", {self.progres})
             print(f"gladnes", {self.glad})
             print(f"money", {self.mon})
+            print(f"hungry", {self.hun})
             if self.mon <= 80:
                 print('sssssssssssssssssssssssssss')
                 self.work()
